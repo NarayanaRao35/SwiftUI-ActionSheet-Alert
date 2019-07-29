@@ -1,6 +1,8 @@
 # SwiftUI-ActionSheet-Alert
-
-delcare showActionSheet variable as state varible 
+```
+delcare showActionSheet variable as state variable like below
+@State var showActionSheet = false
+```
 ```
 Button(action: {
     self.showActionSheet = true
