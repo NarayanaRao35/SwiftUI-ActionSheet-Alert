@@ -1,5 +1,9 @@
 # SwiftUI-ActionSheet-Alert
-
+```
+delcare showActionSheet variable as state variable like below
+@State var showActionSheet = false
+@State var actionSheetButtonColor: Color = .black
+```
 ```
 Button(action: {
     self.showActionSheet = true
